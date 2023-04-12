@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shroomsletter</title>
+    <link rel="stylesheet" href="public/css/styles.css" />
+  </head>
+  <body class="container">
+    <img
+      class="image"
+      src="public/image/shroom.png"
+      alt="just a red shroom"
+      class="icon"
+    />
+    <h1 class="title">sign up to shroomsletter</h1>
+    <form method="POST" action="/" class="form">
+      <fieldset class="fieldset">
+        <label class="label">first name</label>
+        <input class="input" type="text" name="firstName" required />
+      </fieldset>
+      <fieldset class="fieldset">
+        <label class="label">last name</label>
+        <input class="input" type="text" name="lastName" required />
+      </fieldset>
+      <fieldset class="fieldset">
+        <label class="label">email</label>
+        <input class="input" type="email" name="email" required />
+      </fieldset>
+      <button class="button" type="submit" name="button">sign me up</button>
+    </form>
+  </body>
+</html>
